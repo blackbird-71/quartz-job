@@ -63,13 +63,9 @@ public class BillingService {
             log.info(ioException.getMessage());
         }
         */
-        /*
-            echo "********************************************************************************"
-            echo "*                             SE EJECUTO EL PROGRAMA                           *"
-            echo "********************************************************************************"
-         */
+
         try {
-            String path = "/home/refactorizando/script.sh";
+            String path = "/home/oscar/Documentos/prueba.sh";
             String[] command = {"sh",path};
             Process process = Runtime.getRuntime().exec(command);
 
